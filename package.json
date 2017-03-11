@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dashboard -- webpack-dev-server --open --quiet",
-    "webpack": "webpack --config webpack.config.js --watch --progress"
   },
   "author": "zweiler",
   "license": "MIT",
