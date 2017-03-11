@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dashboard -- webpack-dev-server --open --quiet",
+    "start": "webpack-dashboard -- webpack-dev-server --open --quiet"
   },
   "author": "zweiler",
   "license": "MIT",
