@@ -1,0 +1,33 @@
+{
+  "name": "nexmo-test-drive",
+  "version": "1.0.0",
+  "description": "Trying out the Nexmo SMS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dashboard -- webpack-dev-server --open --quiet",
+    "webpack": "webpack --config webpack.config.js --watch --progress"
+  },
+  "author": "zweiler",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "15.3.0",
+    "react-dom": "15.3.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.13.2",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.13.2",
+    "babel-preset-react": "6.11.1",
+    "babel-preset-stage-2": "6.13.0",
+    "css-loader": "0.23.1",
+    "html-webpack-plugin": "^2.28.0",
+    "postcss-loader": "0.9.1",
+    "react-hot-loader": "3.0.0-beta.6",
+    "style-loader": "0.13.1",
+    "webpack-dashboard": "^0.3.0"
+  }
+}
